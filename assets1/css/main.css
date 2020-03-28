@@ -1215,7 +1215,9 @@ input[type="radio"] + label:before {
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
-  position: relative; }
+  position: relative; 
+  width: 100%; 
+  height: 100% }
   .image img {
     border-radius: 0.375em;
     display: block; }
@@ -1236,7 +1238,7 @@ input[type="radio"] + label:before {
     margin: 0 0 2em 0;
     width: 100%; }
     .image.fit img {
-      width: 100%; }
+      width: 10 cm; }
   .image.main {
     display: block;
     margin: 0 0 3em 0;
@@ -1841,7 +1843,9 @@ button,
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  min-height: 100vh; }
+  min-height: 100vh;
+  width: 100%; 
+  height: 100%  }
 
 /* Main */
 #main {
